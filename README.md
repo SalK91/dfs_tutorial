@@ -17,20 +17,20 @@ This repository serves as a tutorial for using Featuretools, a powerful Python l
 # Code Overview
 The tutorial covers the following key aspects:
 
-***Loading Data:** Loading and preprocessing the dataset, consisting of clients, loans, payments, and outcomes.
+* **Loading Data:** Loading and preprocessing the dataset, consisting of clients, loans, payments, and outcomes.
 
-***Data Visualization:** Visualizing a subset of the data to gain insights into clients, loans, payments due, and outcomes.
+* **Data Visualization:** Visualizing a subset of the data to gain insights into clients, loans, payments due, and outcomes.
 
-***EntitySets:** Introducing EntitySets, a collection of dataframes and relationships between them, to prepare raw, structured datasets for feature engineering.
+* **EntitySets:** Introducing EntitySets, a collection of dataframes and relationships between them, to prepare raw, structured datasets for feature engineering.
 
-***Adding Relationships:** Establishing relationships between dataframes (clients, loans, payments_due, outcome) to facilitate feature engineering.
+* **Adding Relationships:** Establishing relationships between dataframes (clients, loans, payments_due, outcome) to facilitate feature engineering.
 
-***Feature Primitives:** Exploring feature primitives, the building blocks of Featuretools, categorized as Aggregation and Transformation. The tutorial lists available primitives and their importance in creating new features.
+* **Feature Primitives:** Exploring feature primitives, the building blocks of Featuretools, categorized as Aggregation and Transformation. The tutorial lists available primitives and their importance in creating new features.
 
-***Cutoff Time:** Highlighting the significance of cutoff time in feature engineering to prevent leakage, demonstrated through the extraction and manipulation of cutoff times.
+* **Cutoff Time:** Highlighting the significance of cutoff time in feature engineering to prevent leakage, demonstrated through the extraction and manipulation of cutoff times.
 
 [Handling Time in Featuretools] (https://docs.featuretools.com/en/v0.16.0/automated_feature_engineering/handling_time.html#:~:text=The%20cutoff_time%20is%20the%20last,calculate_feature_matrix%20.)
 
-***Deep Feature Synthesis:** Performing deep feature synthesis using Featuretools to generate features based on specified aggregation and transformation primitives.
+* **Deep Feature Synthesis:** Performing deep feature synthesis using Featuretools to generate features based on specified aggregation and transformation primitives.
 
-***Visualization:** Visualizing a specific feature to better understand its structure.
+* **Visualization:** Visualizing a specific feature to better understand its structure.
