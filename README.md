@@ -1,4 +1,4 @@
-# Featuretools Tutorial
+# Feature Engineering Tutorial with Featuretools
 
 This repository serves as a tutorial for using Featuretools, a powerful Python library designed for automated feature engineering. The tutorial walks through the application of Featuretools on a dataset sourced from Kaggle, containing information about clients, their loans, payments, and outcomes.
 
@@ -10,30 +10,27 @@ This repository serves as a tutorial for using Featuretools, a powerful Python l
 2. **loans**: Previous loans taken out by the clients.
 3. **payments**: Payments made/missed on the previous loans.
 
-### Data Source:
-[Automated Feature Engineering Tutorial on Kaggle](https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-tutorial)
+[Data Source] (https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-tutorial)
 
 
 
-## Data Representation with EntitySets
-Featuretools works with EntitySets, a collection of dataframes and their relationships. This section demonstrates the creation of an EntitySet and the addition of dataframes representing clients, loans, payments due, and outcomes.
+# Code Overview
+The tutorial covers the following key aspects:
 
-## Adding Relationships
-Featuretools leverages relationships between dataframes. The tutorial illustrates how to define relationships between clients and loans, loans and payments, and payments_due and outcomes.
+***Loading Data:** Loading and preprocessing the dataset, consisting of clients, loans, payments, and outcomes.
 
-## Feature Engineering with Cutoff Time
-One essential aspect of feature engineering in Featuretools is incorporating a cutoff time to prevent leakage. This is crucial to ensure that features are created based on information available up to a certain point in time. The tutorial demonstrates the use of cutoff times in the following steps:
+***Data Visualization:** Visualizing a subset of the data to gain insights into clients, loans, payments due, and outcomes.
 
-Define cutoff times based on the desired time point.
-Apply cutoff times during deep feature synthesis to avoid data leakage.
+***EntitySets:** Introducing EntitySets, a collection of dataframes and relationships between them, to prepare raw, structured datasets for feature engineering.
 
-## Feature Engineering
-Featuretools simplifies feature engineering through feature primitives, which are building blocks for creating new features. The tutorial covers both aggregation and transformation primitives, demonstrating their application on the dataset.
+***Adding Relationships:** Establishing relationships between dataframes (clients, loans, payments_due, outcome) to facilitate feature engineering.
 
-## Visualizing Features
-The tutorial includes visualizations of specific features, providing insights into their composition and relationships.
+***Feature Primitives:** Exploring feature primitives, the building blocks of Featuretools, categorized as Aggregation and Transformation. The tutorial lists available primitives and their importance in creating new features.
 
-## Conclusion
-This Featuretools tutorial is a hands-on guide to using the library for feature engineering. By following the provided code snippets, you'll gain a practical understanding of how to apply Featuretools on a relational dataset to extract meaningful features.
+***Cutoff Time:** Highlighting the significance of cutoff time in feature engineering to prevent leakage, demonstrated through the extraction and manipulation of cutoff times.
 
-Feel free to explore and adapt the tutorial based on your specific use case and dataset. Enjoy feature engineering with Featuretools!
+[Handling Time in Featuretools] (https://docs.featuretools.com/en/v0.16.0/automated_feature_engineering/handling_time.html#:~:text=The%20cutoff_time%20is%20the%20last,calculate_feature_matrix%20.)
+
+***Deep Feature Synthesis:** Performing deep feature synthesis using Featuretools to generate features based on specified aggregation and transformation primitives.
+
+***Visualization:** Visualizing a specific feature to better understand its structure.
