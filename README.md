@@ -10,7 +10,7 @@ This repository serves as a tutorial for using Featuretools, a powerful Python l
 2. **loans**: Previous loans taken out by the clients.
 3. **payments**: Payments made/missed on the previous loans.
 
-[Data Source] (https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-tutorial)
+[Data Source](https://www.kaggle.com/code/willkoehrsen/automated-feature-engineering-tutorial)
 
 
 
@@ -27,9 +27,7 @@ The tutorial covers the following key aspects:
 
 * **Feature Primitives:** Exploring feature primitives, the building blocks of Featuretools, categorized as Aggregation and Transformation. The tutorial lists available primitives and their importance in creating new features.
 
-* **Cutoff Time:** Highlighting the significance of cutoff time in feature engineering to prevent leakage, demonstrated through the extraction and manipulation of cutoff times.
-
-[Handling Time in Featuretools] (https://docs.featuretools.com/en/v0.16.0/automated_feature_engineering/handling_time.html#:~:text=The%20cutoff_time%20is%20the%20last,calculate_feature_matrix%20.)
+* **Cutoff Time:** Highlighting the significance of cutoff time in feature engineering to prevent leakage, demonstrated through the extraction and manipulation of cutoff times. [Handling Time in Featuretools](https://docs.featuretools.com/en/v0.16.0/automated_feature_engineering/handling_time.html#:~:text=The%20cutoff_time%20is%20the%20last,calculate_feature_matrix%20.)
 
 * **Deep Feature Synthesis:** Performing deep feature synthesis using Featuretools to generate features based on specified aggregation and transformation primitives.
 
